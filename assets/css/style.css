@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    display: block;
+  }
+
+header {
+    padding: 20px;
+  }
+
+nav,
+.countdown {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 20px;
+  }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  margin: 80px auto;
+  width: 60vw;
+  padding-top: 20px;
+  }
+
+.container,
+.buttons {
+  display: block;
+  text-align: left;
+  }
+  
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+h2 {
+    font-size: 23px;
+    margin: 20px;
+} 
+
+#allDone {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+h3 {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+}
+
+p {
+  display: inline;
+  text-align: left;
+  float: left;
+  padding-top: 5px;
+  margin: 20px;
+} 
+
+li {
+  background:rgb(237, 218, 255);
+  padding: 5px;
+  padding-left: 15px;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+input {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  margin-left: 3px;
+  padding: 2px;
+}
+
+button {
+    margin: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    background-color: rgb(96, 28, 163);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(96, 28, 163);
+    box-shadow: 2px 2px 10px gray;
+  }
+
+#view-highscores {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#view-highscores:hover {
+  color: rgb(96, 28, 163);
+}
+
+#view-highscores:focus {
+  color: rgb(96, 28, 163);
+}
+
+.start-button {
+    display: inline;
+  }
+
+.submit-button {
+  float: left;
+  margin: 10px;
+  margin-left: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.hs-buttons {
+  display: inline;
+  float: left;
+  margin: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+ 
+}
+
+.notif {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+    justify-content: flex-start;
+}
+
+hr {
+  margin-top: 20px;
+  border: 1px solid gray;
+}
